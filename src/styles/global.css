@@ -1,0 +1,111 @@
+/* ============================================
+   MOLLERA CHOCOLATES — Global Styles
+   Design System: Minimal Luxury
+   ============================================ */
+
+/* CSS Custom Properties (Design Tokens) */
+:root {
+  --navy: #2B3A4A;
+  --champagne: #E8D5B7;
+  --antique-gold: #D4AF77;
+  --soft-cream: #F5EFE6;
+  --dark-choc: #3E2723;
+  --off-white: #FEFDFB;
+  --warm-ivory: #F8F6F2;
+
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  --transition-smooth: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-fast: all 0.2s ease;
+
+  --max-width: 1280px;
+  --section-padding: 120px 40px;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--off-white);
+  color: var(--navy);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+}
+
+/* Typography Scale */
+.heading-display {
+  font-family: var(--font-heading);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.heading-section {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.label-small {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Utility */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 80px 24px;
+  }
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --section-padding: 64px 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
