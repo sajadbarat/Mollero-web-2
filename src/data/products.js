@@ -28,7 +28,7 @@ export const products = [
     subtitle: "Heritage Recipe",
     description:
       "Inspired by centuries-old Ottoman confectionery — premium cacao married with exotic Turkish flavors.",
-    image: "/images/Special-turkish.png",
+    image: "/images/special-turkish.png",
     accent: "#6D4C41",
     tag: "Classic",
   },
@@ -38,7 +38,7 @@ export const products = [
     subtitle: "Celebration Collection",
     description:
       "Exquisitely crafted for life's most cherished moments — delicate chocolate bonbons dressed in pure elegance.",
-    image: "/images/Weddings.png",
+    image: "/images/weddings.png",
     accent: "#B8860B",
     tag: "Limited",
   },
@@ -48,7 +48,7 @@ export const products = [
     subtitle: "Bespoke Corporate",
     description:
       "A curated selection of our finest chocolates, presented in a signature gift box — perfect for distinguished gifting.",
-    image: "/images/Specialbox-companies.png",
+    image: "/images/specialbox-companies.png",
     accent: "#8B2252",
     tag: "Bespoke",
   },
@@ -80,7 +80,7 @@ export const products = [
     subtitle: "Chef's Selection",
     description:
       "Our chef's personal selection — a harmonious blend of textures and flavors that defines the Mollera philosophy.",
-    image: "/images/Untitled design.png",
+    image: "/images/signature-design.png",
     accent: "#7A5C3A",
     tag: "Chef's Pick",
   },
